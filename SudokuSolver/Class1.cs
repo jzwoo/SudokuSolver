@@ -145,7 +145,6 @@ namespace SudokuSolver {
 
             for (int i = startRow; i < (startRow + 3); i++) {
                 for (int j = startCol; j < (startCol + 3); j++) {
-                    Console.WriteLine(i + " " + j);
                     if (this.grid[i, j] == num) {
                         result = false;
                         break;
