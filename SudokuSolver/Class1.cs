@@ -18,10 +18,6 @@ namespace SudokuSolver {
             set { grid = value; }
         }
 
-        public void test() {
-            this.grid[0, 0] = -10;
-        }
-
         public bool Solve() {
 
             for (int i = 0; i < 9; i++) {
@@ -43,6 +39,15 @@ namespace SudokuSolver {
             }
             return true;
         }
+
+        public void ValidateSudoku() {
+            for (int i = 0; i < 9; i++) {
+                for (int j = 0; j < 9; j++) {
+
+                }
+            }
+        }
+
 
         // Checks if it is possible to put num in a cell (x,y) of grid
         private bool PossibleNum(int r, int c, int num) {

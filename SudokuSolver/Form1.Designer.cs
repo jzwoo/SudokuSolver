@@ -254,6 +254,7 @@ namespace SudokuSolver {
             this.textBox81.Size = new System.Drawing.Size(55, 51);
             this.textBox81.TabIndex = 80;
             this.textBox81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox81.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox80
             // 
@@ -266,6 +267,7 @@ namespace SudokuSolver {
             this.textBox80.Size = new System.Drawing.Size(47, 51);
             this.textBox80.TabIndex = 79;
             this.textBox80.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox80.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox79
             // 
@@ -278,6 +280,7 @@ namespace SudokuSolver {
             this.textBox79.Size = new System.Drawing.Size(47, 51);
             this.textBox79.TabIndex = 78;
             this.textBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox79.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox78
             // 
@@ -290,6 +293,7 @@ namespace SudokuSolver {
             this.textBox78.Size = new System.Drawing.Size(47, 51);
             this.textBox78.TabIndex = 77;
             this.textBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox78.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox77
             // 
@@ -302,6 +306,7 @@ namespace SudokuSolver {
             this.textBox77.Size = new System.Drawing.Size(47, 51);
             this.textBox77.TabIndex = 76;
             this.textBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox77.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox76
             // 
@@ -314,6 +319,7 @@ namespace SudokuSolver {
             this.textBox76.Size = new System.Drawing.Size(47, 51);
             this.textBox76.TabIndex = 75;
             this.textBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox76.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox75
             // 
@@ -326,6 +332,7 @@ namespace SudokuSolver {
             this.textBox75.Size = new System.Drawing.Size(47, 51);
             this.textBox75.TabIndex = 74;
             this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox75.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox74
             // 
@@ -338,6 +345,7 @@ namespace SudokuSolver {
             this.textBox74.Size = new System.Drawing.Size(47, 51);
             this.textBox74.TabIndex = 73;
             this.textBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox74.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox73
             // 
@@ -350,6 +358,7 @@ namespace SudokuSolver {
             this.textBox73.Size = new System.Drawing.Size(47, 51);
             this.textBox73.TabIndex = 72;
             this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox73.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox72
             // 
@@ -362,6 +371,7 @@ namespace SudokuSolver {
             this.textBox72.Size = new System.Drawing.Size(55, 46);
             this.textBox72.TabIndex = 71;
             this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox72.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox71
             // 
@@ -374,6 +384,7 @@ namespace SudokuSolver {
             this.textBox71.Size = new System.Drawing.Size(47, 46);
             this.textBox71.TabIndex = 70;
             this.textBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox71.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox70
             // 
@@ -386,6 +397,7 @@ namespace SudokuSolver {
             this.textBox70.Size = new System.Drawing.Size(47, 46);
             this.textBox70.TabIndex = 69;
             this.textBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox70.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox69
             // 
@@ -398,6 +410,7 @@ namespace SudokuSolver {
             this.textBox69.Size = new System.Drawing.Size(47, 46);
             this.textBox69.TabIndex = 68;
             this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox69.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox68
             // 
@@ -410,6 +423,7 @@ namespace SudokuSolver {
             this.textBox68.Size = new System.Drawing.Size(47, 46);
             this.textBox68.TabIndex = 67;
             this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox68.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox67
             // 
@@ -422,6 +436,7 @@ namespace SudokuSolver {
             this.textBox67.Size = new System.Drawing.Size(47, 46);
             this.textBox67.TabIndex = 66;
             this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox67.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox66
             // 
@@ -434,6 +449,7 @@ namespace SudokuSolver {
             this.textBox66.Size = new System.Drawing.Size(47, 46);
             this.textBox66.TabIndex = 65;
             this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox66.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox65
             // 
@@ -446,6 +462,7 @@ namespace SudokuSolver {
             this.textBox65.Size = new System.Drawing.Size(47, 46);
             this.textBox65.TabIndex = 64;
             this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox65.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox64
             // 
@@ -458,6 +475,7 @@ namespace SudokuSolver {
             this.textBox64.Size = new System.Drawing.Size(47, 46);
             this.textBox64.TabIndex = 63;
             this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox64.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox63
             // 
@@ -470,6 +488,7 @@ namespace SudokuSolver {
             this.textBox63.Size = new System.Drawing.Size(55, 46);
             this.textBox63.TabIndex = 62;
             this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox63.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox62
             // 
@@ -482,6 +501,7 @@ namespace SudokuSolver {
             this.textBox62.Size = new System.Drawing.Size(47, 46);
             this.textBox62.TabIndex = 61;
             this.textBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox62.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox61
             // 
@@ -494,6 +514,7 @@ namespace SudokuSolver {
             this.textBox61.Size = new System.Drawing.Size(47, 46);
             this.textBox61.TabIndex = 60;
             this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox61.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox60
             // 
@@ -506,6 +527,7 @@ namespace SudokuSolver {
             this.textBox60.Size = new System.Drawing.Size(47, 46);
             this.textBox60.TabIndex = 59;
             this.textBox60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox60.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox59
             // 
@@ -518,6 +540,7 @@ namespace SudokuSolver {
             this.textBox59.Size = new System.Drawing.Size(47, 46);
             this.textBox59.TabIndex = 58;
             this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox59.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox58
             // 
@@ -530,6 +553,7 @@ namespace SudokuSolver {
             this.textBox58.Size = new System.Drawing.Size(47, 46);
             this.textBox58.TabIndex = 57;
             this.textBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox58.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox57
             // 
@@ -542,6 +566,7 @@ namespace SudokuSolver {
             this.textBox57.Size = new System.Drawing.Size(47, 46);
             this.textBox57.TabIndex = 56;
             this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox57.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox56
             // 
@@ -554,6 +579,7 @@ namespace SudokuSolver {
             this.textBox56.Size = new System.Drawing.Size(47, 46);
             this.textBox56.TabIndex = 55;
             this.textBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox56.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox55
             // 
@@ -566,6 +592,7 @@ namespace SudokuSolver {
             this.textBox55.Size = new System.Drawing.Size(47, 46);
             this.textBox55.TabIndex = 54;
             this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox55.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox54
             // 
@@ -578,6 +605,7 @@ namespace SudokuSolver {
             this.textBox54.Size = new System.Drawing.Size(55, 46);
             this.textBox54.TabIndex = 53;
             this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox54.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox53
             // 
@@ -590,6 +618,7 @@ namespace SudokuSolver {
             this.textBox53.Size = new System.Drawing.Size(47, 46);
             this.textBox53.TabIndex = 52;
             this.textBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox53.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox52
             // 
@@ -602,6 +631,7 @@ namespace SudokuSolver {
             this.textBox52.Size = new System.Drawing.Size(47, 46);
             this.textBox52.TabIndex = 51;
             this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox52.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox51
             // 
@@ -614,6 +644,7 @@ namespace SudokuSolver {
             this.textBox51.Size = new System.Drawing.Size(47, 46);
             this.textBox51.TabIndex = 50;
             this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox51.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox50
             // 
@@ -626,6 +657,7 @@ namespace SudokuSolver {
             this.textBox50.Size = new System.Drawing.Size(47, 46);
             this.textBox50.TabIndex = 49;
             this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox50.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox49
             // 
@@ -638,6 +670,7 @@ namespace SudokuSolver {
             this.textBox49.Size = new System.Drawing.Size(47, 46);
             this.textBox49.TabIndex = 48;
             this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox49.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox48
             // 
@@ -650,6 +683,7 @@ namespace SudokuSolver {
             this.textBox48.Size = new System.Drawing.Size(47, 46);
             this.textBox48.TabIndex = 47;
             this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox48.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox47
             // 
@@ -662,6 +696,7 @@ namespace SudokuSolver {
             this.textBox47.Size = new System.Drawing.Size(47, 46);
             this.textBox47.TabIndex = 46;
             this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox47.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox46
             // 
@@ -674,6 +709,7 @@ namespace SudokuSolver {
             this.textBox46.Size = new System.Drawing.Size(47, 46);
             this.textBox46.TabIndex = 45;
             this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox46.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox45
             // 
@@ -686,6 +722,7 @@ namespace SudokuSolver {
             this.textBox45.Size = new System.Drawing.Size(55, 46);
             this.textBox45.TabIndex = 44;
             this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox45.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox44
             // 
@@ -698,6 +735,7 @@ namespace SudokuSolver {
             this.textBox44.Size = new System.Drawing.Size(47, 46);
             this.textBox44.TabIndex = 43;
             this.textBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox44.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox43
             // 
@@ -710,6 +748,7 @@ namespace SudokuSolver {
             this.textBox43.Size = new System.Drawing.Size(47, 46);
             this.textBox43.TabIndex = 42;
             this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox43.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox42
             // 
@@ -722,6 +761,7 @@ namespace SudokuSolver {
             this.textBox42.Size = new System.Drawing.Size(47, 46);
             this.textBox42.TabIndex = 41;
             this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox42.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox41
             // 
@@ -734,6 +774,7 @@ namespace SudokuSolver {
             this.textBox41.Size = new System.Drawing.Size(47, 46);
             this.textBox41.TabIndex = 40;
             this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox41.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox40
             // 
@@ -746,6 +787,7 @@ namespace SudokuSolver {
             this.textBox40.Size = new System.Drawing.Size(47, 46);
             this.textBox40.TabIndex = 39;
             this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox40.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox39
             // 
@@ -758,6 +800,7 @@ namespace SudokuSolver {
             this.textBox39.Size = new System.Drawing.Size(47, 46);
             this.textBox39.TabIndex = 38;
             this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox39.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox38
             // 
@@ -770,6 +813,7 @@ namespace SudokuSolver {
             this.textBox38.Size = new System.Drawing.Size(47, 46);
             this.textBox38.TabIndex = 37;
             this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox38.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox37
             // 
@@ -782,6 +826,7 @@ namespace SudokuSolver {
             this.textBox37.Size = new System.Drawing.Size(47, 46);
             this.textBox37.TabIndex = 36;
             this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox37.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox36
             // 
@@ -794,6 +839,7 @@ namespace SudokuSolver {
             this.textBox36.Size = new System.Drawing.Size(55, 46);
             this.textBox36.TabIndex = 35;
             this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox36.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox35
             // 
@@ -806,6 +852,7 @@ namespace SudokuSolver {
             this.textBox35.Size = new System.Drawing.Size(47, 46);
             this.textBox35.TabIndex = 34;
             this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox35.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox34
             // 
@@ -818,6 +865,7 @@ namespace SudokuSolver {
             this.textBox34.Size = new System.Drawing.Size(47, 46);
             this.textBox34.TabIndex = 33;
             this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox34.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox33
             // 
@@ -830,6 +878,7 @@ namespace SudokuSolver {
             this.textBox33.Size = new System.Drawing.Size(47, 46);
             this.textBox33.TabIndex = 32;
             this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox33.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox32
             // 
@@ -842,6 +891,7 @@ namespace SudokuSolver {
             this.textBox32.Size = new System.Drawing.Size(47, 46);
             this.textBox32.TabIndex = 31;
             this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox32.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox31
             // 
@@ -854,6 +904,7 @@ namespace SudokuSolver {
             this.textBox31.Size = new System.Drawing.Size(47, 46);
             this.textBox31.TabIndex = 30;
             this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox31.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox30
             // 
@@ -866,6 +917,7 @@ namespace SudokuSolver {
             this.textBox30.Size = new System.Drawing.Size(47, 46);
             this.textBox30.TabIndex = 29;
             this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox30.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox29
             // 
@@ -878,6 +930,7 @@ namespace SudokuSolver {
             this.textBox29.Size = new System.Drawing.Size(47, 46);
             this.textBox29.TabIndex = 28;
             this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox29.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox28
             // 
@@ -890,6 +943,7 @@ namespace SudokuSolver {
             this.textBox28.Size = new System.Drawing.Size(47, 46);
             this.textBox28.TabIndex = 27;
             this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox28.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox27
             // 
@@ -902,6 +956,7 @@ namespace SudokuSolver {
             this.textBox27.Size = new System.Drawing.Size(55, 46);
             this.textBox27.TabIndex = 26;
             this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox27.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox26
             // 
@@ -914,6 +969,7 @@ namespace SudokuSolver {
             this.textBox26.Size = new System.Drawing.Size(47, 46);
             this.textBox26.TabIndex = 25;
             this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox26.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox25
             // 
@@ -926,6 +982,7 @@ namespace SudokuSolver {
             this.textBox25.Size = new System.Drawing.Size(47, 46);
             this.textBox25.TabIndex = 24;
             this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox25.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox24
             // 
@@ -938,6 +995,7 @@ namespace SudokuSolver {
             this.textBox24.Size = new System.Drawing.Size(47, 46);
             this.textBox24.TabIndex = 23;
             this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox24.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox23
             // 
@@ -950,6 +1008,7 @@ namespace SudokuSolver {
             this.textBox23.Size = new System.Drawing.Size(47, 46);
             this.textBox23.TabIndex = 22;
             this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox23.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox22
             // 
@@ -962,6 +1021,7 @@ namespace SudokuSolver {
             this.textBox22.Size = new System.Drawing.Size(47, 46);
             this.textBox22.TabIndex = 21;
             this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox22.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox21
             // 
@@ -974,6 +1034,7 @@ namespace SudokuSolver {
             this.textBox21.Size = new System.Drawing.Size(47, 46);
             this.textBox21.TabIndex = 20;
             this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox21.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox20
             // 
@@ -986,6 +1047,7 @@ namespace SudokuSolver {
             this.textBox20.Size = new System.Drawing.Size(47, 46);
             this.textBox20.TabIndex = 19;
             this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox20.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox19
             // 
@@ -998,6 +1060,7 @@ namespace SudokuSolver {
             this.textBox19.Size = new System.Drawing.Size(47, 46);
             this.textBox19.TabIndex = 18;
             this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox19.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox18
             // 
@@ -1010,6 +1073,7 @@ namespace SudokuSolver {
             this.textBox18.Size = new System.Drawing.Size(55, 46);
             this.textBox18.TabIndex = 17;
             this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox18.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox17
             // 
@@ -1022,6 +1086,7 @@ namespace SudokuSolver {
             this.textBox17.Size = new System.Drawing.Size(47, 46);
             this.textBox17.TabIndex = 16;
             this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox17.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox16
             // 
@@ -1034,6 +1099,7 @@ namespace SudokuSolver {
             this.textBox16.Size = new System.Drawing.Size(47, 46);
             this.textBox16.TabIndex = 15;
             this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox16.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox15
             // 
@@ -1046,6 +1112,7 @@ namespace SudokuSolver {
             this.textBox15.Size = new System.Drawing.Size(47, 46);
             this.textBox15.TabIndex = 14;
             this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox15.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox14
             // 
@@ -1058,6 +1125,7 @@ namespace SudokuSolver {
             this.textBox14.Size = new System.Drawing.Size(47, 46);
             this.textBox14.TabIndex = 13;
             this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox14.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox13
             // 
@@ -1070,6 +1138,7 @@ namespace SudokuSolver {
             this.textBox13.Size = new System.Drawing.Size(47, 46);
             this.textBox13.TabIndex = 12;
             this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox13.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox12
             // 
@@ -1082,6 +1151,7 @@ namespace SudokuSolver {
             this.textBox12.Size = new System.Drawing.Size(47, 46);
             this.textBox12.TabIndex = 11;
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox12.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox11
             // 
@@ -1094,6 +1164,7 @@ namespace SudokuSolver {
             this.textBox11.Size = new System.Drawing.Size(47, 46);
             this.textBox11.TabIndex = 10;
             this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox11.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox10
             // 
@@ -1106,6 +1177,7 @@ namespace SudokuSolver {
             this.textBox10.Size = new System.Drawing.Size(47, 46);
             this.textBox10.TabIndex = 9;
             this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox10.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox9
             // 
@@ -1118,6 +1190,7 @@ namespace SudokuSolver {
             this.textBox9.Size = new System.Drawing.Size(55, 46);
             this.textBox9.TabIndex = 8;
             this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox8
             // 
@@ -1130,6 +1203,7 @@ namespace SudokuSolver {
             this.textBox8.Size = new System.Drawing.Size(47, 46);
             this.textBox8.TabIndex = 7;
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox7
             // 
@@ -1142,6 +1216,7 @@ namespace SudokuSolver {
             this.textBox7.Size = new System.Drawing.Size(47, 46);
             this.textBox7.TabIndex = 6;
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox6
             // 
@@ -1154,6 +1229,7 @@ namespace SudokuSolver {
             this.textBox6.Size = new System.Drawing.Size(47, 46);
             this.textBox6.TabIndex = 5;
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox5
             // 
@@ -1166,6 +1242,7 @@ namespace SudokuSolver {
             this.textBox5.Size = new System.Drawing.Size(47, 46);
             this.textBox5.TabIndex = 4;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox4
             // 
@@ -1178,6 +1255,7 @@ namespace SudokuSolver {
             this.textBox4.Size = new System.Drawing.Size(47, 46);
             this.textBox4.TabIndex = 3;
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox3
             // 
@@ -1190,6 +1268,7 @@ namespace SudokuSolver {
             this.textBox3.Size = new System.Drawing.Size(47, 46);
             this.textBox3.TabIndex = 2;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox2
             // 
@@ -1202,6 +1281,7 @@ namespace SudokuSolver {
             this.textBox2.Size = new System.Drawing.Size(47, 46);
             this.textBox2.TabIndex = 1;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // textBox1
             // 
@@ -1214,14 +1294,15 @@ namespace SudokuSolver {
             this.textBox1.Size = new System.Drawing.Size(47, 46);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxFocus_KeyDown);
             // 
             // topLabel
             // 
             this.topLabel.AutoSize = true;
-            this.topLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.topLabel.Font = new System.Drawing.Font("Lucida Sans Unicode", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.topLabel.Location = new System.Drawing.Point(13, 9);
             this.topLabel.Name = "topLabel";
-            this.topLabel.Size = new System.Drawing.Size(422, 37);
+            this.topLabel.Size = new System.Drawing.Size(462, 39);
             this.topLabel.TabIndex = 2;
             this.topLabel.Text = "Enter your unsolved sudoku!";
             this.topLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

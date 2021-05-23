@@ -22,6 +22,7 @@ namespace SudokuSolver {
 
             // returns the given control if there is no match
             return control;
-        } 
+       }
+
     }
 }
